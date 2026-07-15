@@ -1,0 +1,25 @@
+{
+  "name": "Chez Keke POS — at Keke's Place",
+  "short_name": "Chez Keke",
+  "description": "Premium Point of Sale system for Chez Keke restaurant.",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#070707",
+  "background_color": "#070707",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/"
+}
