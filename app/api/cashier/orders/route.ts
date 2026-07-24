@@ -17,7 +17,9 @@ export async function GET() {
         status: { not: 'CANCELLED' }
       },
       include: {
-        items: true,
+        items: {
+          where: { status: 'ACTIVE', deletedAt: null }
+        },
         waiter: {
           select: { name: true }
         }
